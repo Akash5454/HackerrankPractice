@@ -9,3 +9,19 @@ for i in a:
         b.append(i)
 for j in b:
     print (j)
+
+x=collections.Counter(a)
+print ("Frequency =")
+print (x)
+
+
+print (" ")
+s=input("enter starting limit of frequency = ");
+e=input("enter ending limit of frequency = ");
+
+print ("elements/numbers between the given frequency range are =")
+for num,freq in x.items():
+    if(s <= str(freq) and e >= str(freq)):
+        print (num)
+
+    
