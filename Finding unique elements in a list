@@ -1,0 +1,11 @@
+import collections
+a=[10,10,10,10,10,20,20,20,20,30,20,40,10,30,40,50]
+b=[]
+
+
+print ("Unique elements =")
+for i in a:
+    if i not in b:
+        b.append(i)
+for j in b:
+    print (j)
